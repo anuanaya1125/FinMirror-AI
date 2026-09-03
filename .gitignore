@@ -1,19 +1,39 @@
+# Environment / secrets
 .env
 .env.*
 !.env.example
 
+# Python virtual environments
 venv/
 .venv/
+
+# Python cache / compiled files
 __pycache__/
 *.py[cod]
+*.egg-info/
 .pytest_cache/
+
+# Test / coverage
 .coverage
 htmlcov/
 
+# Streamlit
 .streamlit/
+
+# IDE / editor files
 .vscode/
 .idea/
 *.swp
+
+# OS files
 .DS_Store
 
+# Logs
 *.log
+
+# Databases
+data/sample_data/*.db
+*.sqlite3
+
+# Node.js
+node_modules/
