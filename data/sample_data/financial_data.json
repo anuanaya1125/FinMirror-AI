@@ -1,0 +1,327 @@
+[
+  {
+    "user_id": "bdd640fb-0667-4ad1-9c80-317fa3b1799d",
+    "name": "Daniel Doyle",
+    "profile_type": "salaried",
+    "currency": "PKR",
+    "income": {
+      "monthly_income": 174279.63,
+      "income_stability": "seasonal"
+    },
+    "fixed_expenses": {
+      "rent": 26795.77,
+      "utilities": 6300.35,
+      "loan_payments": 5835.16,
+      "insurance": 3682.36
+    },
+    "variable_expenses": {
+      "groceries": 30300.98,
+      "transport": 18167.05,
+      "entertainment": 3130.2,
+      "misc": 5375.37
+    },
+    "current_savings": 19749.62,
+    "savings_goal": {
+      "target_amount": 168136.71,
+      "deadline_months": 36
+    },
+    "history_months": [
+      {
+        "month_offset": -6,
+        "income": 165881.8,
+        "expenses": 102149.08,
+        "net_cashflow": 63732.72
+      },
+      {
+        "month_offset": -5,
+        "income": 175532.81,
+        "expenses": 94808.99,
+        "net_cashflow": 80723.82
+      },
+      {
+        "month_offset": -4,
+        "income": 176768.78,
+        "expenses": 104876.05,
+        "net_cashflow": 71892.73
+      },
+      {
+        "month_offset": -3,
+        "income": 160518.48,
+        "expenses": 104814.33,
+        "net_cashflow": 55704.15
+      },
+      {
+        "month_offset": -2,
+        "income": 179804.7,
+        "expenses": 96856.79,
+        "net_cashflow": 82947.91
+      },
+      {
+        "month_offset": -1,
+        "income": 164672.77,
+        "expenses": 107401.96,
+        "net_cashflow": 57270.81
+      }
+    ]
+  },
+  {
+    "user_id": "c33f4584-b23b-41d8-893c-d01609de8895",
+    "name": "Joel Powers",
+    "profile_type": "gig_worker",
+    "currency": "PKR",
+    "income": {
+      "monthly_income": 48095.89,
+      "income_stability": "variable"
+    },
+    "fixed_expenses": {
+      "rent": 12237.21,
+      "utilities": 4727.2,
+      "loan_payments": 3336.89,
+      "insurance": 3358.23
+    },
+    "variable_expenses": {
+      "groceries": 33788.54,
+      "transport": 10704.22,
+      "entertainment": 8477.54,
+      "misc": 2153.26
+    },
+    "current_savings": 219032.48,
+    "savings_goal": {
+      "target_amount": 436601.09,
+      "deadline_months": 36
+    },
+    "history_months": [
+      {
+        "month_offset": -6,
+        "income": 45604.05,
+        "expenses": 84585.54,
+        "net_cashflow": -38981.49
+      },
+      {
+        "month_offset": -5,
+        "income": 50560.09,
+        "expenses": 76730.15,
+        "net_cashflow": -26170.06
+      },
+      {
+        "month_offset": -4,
+        "income": 44984.99,
+        "expenses": 78988.65,
+        "net_cashflow": -34003.66
+      },
+      {
+        "month_offset": -3,
+        "income": 48064.93,
+        "expenses": 83286.15,
+        "net_cashflow": -35221.22
+      },
+      {
+        "month_offset": -2,
+        "income": 48844.01,
+        "expenses": 78893.49,
+        "net_cashflow": -30049.48
+      },
+      {
+        "month_offset": -1,
+        "income": 48674.26,
+        "expenses": 76747.79,
+        "net_cashflow": -28073.53
+      }
+    ]
+  },
+  {
+    "user_id": "b39cfd4b-8abe-4d78-8520-10116895cea8",
+    "name": "Cassandra Perez",
+    "profile_type": "gig_worker",
+    "currency": "PKR",
+    "income": {
+      "monthly_income": 125792.53,
+      "income_stability": "seasonal"
+    },
+    "fixed_expenses": {
+      "rent": 29095.28,
+      "utilities": 13344.44,
+      "loan_payments": 3333.48,
+      "insurance": 1125.8
+    },
+    "variable_expenses": {
+      "groceries": 10872.92,
+      "transport": 4983.06,
+      "entertainment": 2114.47,
+      "misc": 3253.52
+    },
+    "current_savings": 259288.04,
+    "savings_goal": {
+      "target_amount": 754559.85,
+      "deadline_months": 24
+    },
+    "history_months": [
+      {
+        "month_offset": -6,
+        "income": 129214.77,
+        "expenses": 67220.64,
+        "net_cashflow": 61994.13
+      },
+      {
+        "month_offset": -5,
+        "income": 122548.51,
+        "expenses": 66739.57,
+        "net_cashflow": 55808.94
+      },
+      {
+        "month_offset": -4,
+        "income": 118930.26,
+        "expenses": 68193.1,
+        "net_cashflow": 50737.16
+      },
+      {
+        "month_offset": -3,
+        "income": 127576.14,
+        "expenses": 66658.53,
+        "net_cashflow": 60917.61
+      },
+      {
+        "month_offset": -2,
+        "income": 122077.69,
+        "expenses": 70944.39,
+        "net_cashflow": 51133.3
+      },
+      {
+        "month_offset": -1,
+        "income": 132269.87,
+        "expenses": 66783.99,
+        "net_cashflow": 65485.88
+      }
+    ]
+  },
+  {
+    "user_id": "41f60be0-7cef-4aa3-aaed-cf4a4599a084",
+    "name": "Gerald Jones",
+    "profile_type": "salaried",
+    "currency": "PKR",
+    "income": {
+      "monthly_income": 97093.84,
+      "income_stability": "stable"
+    },
+    "fixed_expenses": {
+      "rent": 21671.76,
+      "utilities": 3982.55,
+      "loan_payments": 4933.34,
+      "insurance": 361.67
+    },
+    "variable_expenses": {
+      "groceries": 10331.09,
+      "transport": 7825.46,
+      "entertainment": 3530.18,
+      "misc": 4488.31
+    },
+    "current_savings": 373018.04,
+    "savings_goal": {
+      "target_amount": 439108.11,
+      "deadline_months": 36
+    },
+    "history_months": [
+      {
+        "month_offset": -6,
+        "income": 93545.42,
+        "expenses": 60234.63,
+        "net_cashflow": 33310.79
+      },
+      {
+        "month_offset": -5,
+        "income": 91720.64,
+        "expenses": 60992.37,
+        "net_cashflow": 30728.27
+      },
+      {
+        "month_offset": -4,
+        "income": 101144.3,
+        "expenses": 56562.02,
+        "net_cashflow": 44582.28
+      },
+      {
+        "month_offset": -3,
+        "income": 98848.02,
+        "expenses": 54319.49,
+        "net_cashflow": 44528.53
+      },
+      {
+        "month_offset": -2,
+        "income": 90214.84,
+        "expenses": 53450.7,
+        "net_cashflow": 36764.14
+      },
+      {
+        "month_offset": -1,
+        "income": 94307.9,
+        "expenses": 55997.83,
+        "net_cashflow": 38310.07
+      }
+    ]
+  },
+  {
+    "user_id": "0a3aee49-6666-4879-938d-da71e3658966",
+    "name": "Shannon Perez",
+    "profile_type": "salaried",
+    "currency": "PKR",
+    "income": {
+      "monthly_income": 226536.3,
+      "income_stability": "stable"
+    },
+    "fixed_expenses": {
+      "rent": 47572.43,
+      "utilities": 10063.44,
+      "loan_payments": 29215.93,
+      "insurance": 1142.7
+    },
+    "variable_expenses": {
+      "groceries": 25471.52,
+      "transport": 12923.42,
+      "entertainment": 14313.59,
+      "misc": 2257.45
+    },
+    "current_savings": 39127.12,
+    "savings_goal": {
+      "target_amount": 233164.99,
+      "deadline_months": 6
+    },
+    "history_months": [
+      {
+        "month_offset": -6,
+        "income": 228300.24,
+        "expenses": 139585.38,
+        "net_cashflow": 88714.86
+      },
+      {
+        "month_offset": -5,
+        "income": 220362.01,
+        "expenses": 146477.19,
+        "net_cashflow": 73884.82
+      },
+      {
+        "month_offset": -4,
+        "income": 236052.95,
+        "expenses": 141277.98,
+        "net_cashflow": 94774.97
+      },
+      {
+        "month_offset": -3,
+        "income": 233974.69,
+        "expenses": 140658.15,
+        "net_cashflow": 93316.54
+      },
+      {
+        "month_offset": -2,
+        "income": 225475.15,
+        "expenses": 148412.52,
+        "net_cashflow": 77062.63
+      },
+      {
+        "month_offset": -1,
+        "income": 225071.43,
+        "expenses": 146200.1,
+        "net_cashflow": 78871.33
+      }
+    ]
+  }
+]
