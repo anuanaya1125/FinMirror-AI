@@ -1,1 +1,1 @@
-"""FinMirror AI - Financial Digital Twin simulation engine."""
+"""FinMirror AI - Financial Digital Twin simulation engine"""
