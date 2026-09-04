@@ -96,7 +96,17 @@ def main() -> None:
         st.caption(f"API: `{API_BASE_URL}`")
         try:
             health = requests.get(f"{API_BASE_URL}/health", timeout=3)
-            st.success("API reachable ✅") if health.ok else st.error("API returned an error")
+            # NOTE: previously written as a bare ternary expression statement:
+            #   st.success("API reachable ✅") if health.ok else st.error(...)
+            # Streamlit's "magic" auto-write feature grabs the *return value*
+            # of that ternary (a DeltaGenerator object, not None) and passes
+            # it to st.write() a second time, which crashes trying to render
+            # it as a dataframe. Using an explicit if/else avoids this because
+            # it isn't a bare expression statement, so magic never touches it.
+            if health.ok:
+                st.success("API reachable ✅")
+            else:
+                st.error("API returned an error")
         except requests.exceptions.RequestException:
             st.error("API unreachable — is the backend running?")
 

@@ -1,0 +1,69 @@
+
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: infra/Dockerfile
+      target: api
+    container_name: finmirror-api
+    ports:
+      - "9000:9000"
+    env_file:
+      - ../.env
+    environment:
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+    volumes:
+      - ../data:/app/data
+    restart: unless-stopped
+    networks:
+      - finmirror
+
+  frontend:
+    build:
+      context: ..
+      dockerfile: infra/Dockerfile
+      target: frontend
+    container_name: finmirror-frontend
+    ports:
+      - "8501:8501"
+    env_file:
+      - ../.env
+    environment:
+      API_BASE_URL: http://api:9000
+    depends_on:
+      - api
+    restart: unless-stopped
+    networks:
+      - finmirror
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: finmirror-prometheus
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    ports:
+      - "9090:9090"
+    depends_on:
+      - api
+    networks:
+      - finmirror
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: finmirror-grafana
+    ports:
+      - "3000:3000"
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: admin
+      GF_AUTH_ANONYMOUS_ENABLED: "true"
+    volumes:
+      - ./grafana/provisioning:/etc/grafana/provisioning
+      - ./grafana/dashboards:/var/lib/grafana/dashboards
+    depends_on:
+      - prometheus
+    networks:
+      - finmirror
+
+networks:
+  finmirror:
+    name: finmirror-network
